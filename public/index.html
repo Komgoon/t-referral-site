@@ -9,11 +9,9 @@
     const lang = navigator.language || navigator.userLanguage;
     const currentPath = window.location.pathname;
     
-    // 이미 언어 경로에 있지 않은 경우에만 리디렉션
+    // 한국어의 경우 리디렉션하지 않고 현재 페이지(루트)에 머무름
     if (currentPath === '/' || currentPath === '/index.html') {
-      if (lang.startsWith('ko')) {
-        location.href = '/';
-      } else if (lang.startsWith('ja')) {
+      if (lang.startsWith('ja')) {
         location.href = '/ja/';
       } else if (lang.startsWith('zh')) {
         location.href = '/zh-tw/';
@@ -25,9 +23,10 @@
         location.href = '/no/';
       } else if (lang.startsWith('fr')) {
         location.href = '/fr/';
-      } else {
+      } else if (!lang.startsWith('ko')) {  // 한국어가 아닌 경우에만 영어 페이지로
         location.href = '/en/';
       }
+      // 한국어(ko)인 경우 아무 동작도 하지 않음 (현재 페이지에 머무름)
     }
   </script>
   
