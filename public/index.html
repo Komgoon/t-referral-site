@@ -4,6 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
+  <!-- Language Redirect Script -->
+  <script>
+    const lang = navigator.language || navigator.userLanguage;
+    const currentPath = window.location.pathname;
+    
+    // 이미 언어 경로에 있지 않은 경우에만 리디렉션
+    if (currentPath === '/' || currentPath === '/index.html') {
+      if (lang.startsWith('ko')) {
+        location.href = '/';
+      } else if (lang.startsWith('ja')) {
+        location.href = '/ja/';
+      } else if (lang.startsWith('zh')) {
+        location.href = '/zh-tw/';
+      } else if (lang.startsWith('th')) {
+        location.href = '/th/';
+      } else if (lang.startsWith('de')) {
+        location.href = '/de/';
+      } else if (lang.startsWith('no')) {
+        location.href = '/no/';
+      } else if (lang.startsWith('fr')) {
+        location.href = '/fr/';
+      } else {
+        location.href = '/en/';
+      }
+    }
+  </script>
+  
   <!-- SEO -->
   <title>테슬라 레퍼럴코드 2025 | 모델Y 및 모델3 차량 할인 받기</title>
   <meta name="description" content="테슬라 차량 구매 시 공식 추천코드로 모델Y 및 모델3 차량 할인을 받아보세요. 2025년 한정 특별 할인 혜택을 놓치지 마세요!" />
