@@ -1,0 +1,38 @@
+// 레퍼럴 코드 복사 기능
+function copyCode() {
+    const codeElement = document.getElementById('referralCode');
+    const codeCopied = document.getElementById('codeCopied');
+    
+    navigator.clipboard.writeText(codeElement.value).then(() => {
+        codeCopied.style.opacity = '1';
+        setTimeout(() => {
+            codeCopied.style.opacity = '0';
+        }, 2000);
+    });
+}
+
+// 언어 변경 기능
+function changeLanguage(lang) {
+    window.location.href = `/${lang}/`;
+}
+
+// 스크롤 애니메이션
+document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('section');
+    
+    const observerOptions = {
+        threshold: 0.1
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, observerOptions);
+    
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});

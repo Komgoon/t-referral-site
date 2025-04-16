@@ -1,0 +1,14 @@
+{
+  "name": "tesla-referral",
+  "version": "1.0.0",
+  "description": "Tesla Referral Code Website",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./css/tailwind.css --watch",
+    "dev": "npm run build"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35"
+  }
+} 

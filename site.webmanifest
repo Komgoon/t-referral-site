@@ -1,0 +1,30 @@
+{
+  "name": "Tesla ReferralCode",
+  "short_name": "Tesla RC",
+  "description": "테슬라 차량 구매 시 공식 추천코드로 모델Y 및 모델3 차량 할인을 받아보세요",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#e82127",
+  "icons": [
+    {
+      "src": "/images/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "lang": "ko",
+  "dir": "ltr",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false
+} 

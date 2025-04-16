@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Tesla推薦碼 - 獲得專屬優惠</title>
+  <meta name="description" content="使用Tesla推薦碼購買新車，即可獲得專屬優惠。包含Model 3和Model Y等車型的折扣。" />
+  <meta name="keywords" content="特斯拉推薦碼, Tesla優惠, 特斯拉折扣, 超級充電站點數" />
+  <link rel="alternate" hreflang="zh-TW" href="https://your-domain.com/zh-tw/" />
+  <link rel="alternate" hreflang="ko" href="https://your-domain.com/" />
+  <link rel="alternate" hreflang="en" href="https://your-domain.com/en/" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- AOS Animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+
+  <!-- FAQ Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "特斯拉推薦碼的有效期限是多久？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "目前為 2024 年的活動，特斯拉未有進一步公告前皆可使用。"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Noto Sans TC', 'Inter', sans-serif;
+      padding-top: 64px; /* 헤더 고정을 위한 상단 패딩 추가 */
+      background-color: #ffffff;
+      color: #1a1f35;
+    }
+    .gradient-bg {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    }
+    .card-hover {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .copy-button {
+      transition: all 0.3s ease;
+    }
+    .copy-button:hover {
+      transform: scale(1.05);
+    }
+    .section-1 {
+      background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    }
+    .section-2 {
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    }
+    .section-3 {
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    }
+    .section-4 {
+      background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-white">
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex-shrink-0">
+          <a href="/zh-tw/" class="text-2xl font-bold text-[#e82127]">Tesla ReferralCode</a>
+        </div>
+        <div class="hidden md:flex items-center space-x-4">
+          <select onchange="location = this.value" class="border-0 bg-transparent text-gray-700">
+            <option value="/zh-tw/" selected>中文</option>
+            <option value="/">한국어</option>
+            <option value="/en/">English</option>
+            <option value="/ja/">日本語</option>
+            <option value="/th/">ไทย</option>
+            <option value="/de/">Deutsch</option>
+            <option value="/no/">Norsk</option>
+            <option value="/fr/">Français</option>
+          </select>
+        </div>
+        <div class="md:hidden">
+          <button class="mobile-menu text-gray-700">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="fixed inset-0 bg-white/80 backdrop-blur-md z-40 hidden" id="mobileMenu">
+    <div class="flex flex-col items-center justify-center h-full">
+      <button class="absolute top-4 right-4 text-gray-700" onclick="closeMobileMenu()">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <div class="space-y-4 text-center">
+        <a href="/zh-tw/" class="block text-xl font-semibold text-gray-900">中文</a>
+        <a href="/" class="block text-xl font-semibold text-gray-900">한국어</a>
+        <a href="/en/" class="block text-xl font-semibold text-gray-900">English</a>
+        <a href="/ja/" class="block text-xl font-semibold text-gray-900">日本語</a>
+        <a href="/th/" class="block text-xl font-semibold text-gray-900">ไทย</a>
+        <a href="/de/" class="block text-xl font-semibold text-gray-900">Deutsch</a>
+        <a href="/no/" class="block text-xl font-semibold text-gray-900">Norsk</a>
+        <a href="/fr/" class="block text-xl font-semibold text-gray-900">Français</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Referral Code Section -->
+    <div class="bg-[#1E2338] text-white py-12">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <header class="text-center mb-12">
+          <h1 class="text-4xl font-bold mb-4">
+            購買特斯拉時<br>
+            <span class="text-red-500">獲得專屬優惠</span>
+          </h1>
+          <p class="text-lg text-gray-400">
+            使用2025年專屬推薦碼
+          </p>
+        </header>
+
+        <div class="bg-[#1E2338] rounded-lg p-6 mb-8">
+          <p class="text-gray-400 mb-2">特斯拉推薦碼</p>
+          <div class="flex items-center gap-4 mb-4">
+            <input type="text" value="tesla.com/referral/withjade752009" readonly 
+              class="w-full bg-transparent text-white text-lg p-2 border border-gray-700 rounded" />
+            <button onclick="copyCode()" class="shrink-0">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3" />
+              </svg>
+            </button>
+          </div>
+          <a href="https://tesla.com/referral/withjade752009" target="_blank" 
+            class="block w-full bg-red-600 hover:bg-red-700 text-center py-3 rounded-lg transition-colors">
+            <span class="inline-flex items-center">
+              🚗 使用代碼享受優惠
+            </span>
+          </a>
+        </div>
+
+        <!-- Share Button -->
+        <div class="text-center mb-20">
+          <button onclick="share()" 
+            class="bg-yellow-500 hover:bg-yellow-600 text-black font-medium px-6 py-2 rounded-full transition-colors inline-flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z" />
+            </svg>
+            分享
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Benefits Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-16" data-aos="fade-up">朋友推薦碼優惠</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <!-- Model 3 -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="100">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-lg flex items-center justify-center mb-6">
+              <span class="text-3xl font-bold text-[#e82127]">3</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Model 3</h3>
+            <p class="text-gray-600">全新升級的Model 3 Highland</p>
+            <div class="mt-4 space-y-2">
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center shrink-0">
+                  <span class="font-medium">台灣</span>
+                </div>
+                <span class="text-gray-600">NT$8,000 折扣</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center shrink-0">
+                  <span class="font-medium">港澳</span>
+                </div>
+                <span class="text-gray-600">MOP$1,958 折扣</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Model Y -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="200">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-lg flex items-center justify-center mb-6">
+              <span class="text-3xl font-bold text-[#e82127]">Y</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Model Y</h3>
+            <p class="text-gray-600">特斯拉暢銷車型</p>
+            <div class="mt-4 space-y-2">
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center shrink-0">
+                  <span class="font-medium">台灣</span>
+                </div>
+                <span class="text-gray-600">NT$8,000 折扣</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center shrink-0">
+                  <span class="font-medium">港澳</span>
+                </div>
+                <span class="text-gray-600">MOP$1,958 折扣</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Model X -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="300">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-lg flex items-center justify-center mb-6">
+              <span class="text-3xl font-bold text-[#e82127]">X</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Model X</h3>
+            <p class="text-gray-600">旗艦級電動SUV</p>
+            <div class="mt-4 space-y-2">
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center shrink-0">
+                  <span class="font-medium">台灣</span>
+                </div>
+                <span class="text-gray-600">NT$8,000 折扣</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center shrink-0">
+                  <span class="font-medium">港澳</span>
+                </div>
+                <span class="text-gray-600">MOP$1,958 折扣</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Model S -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="400">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-lg flex items-center justify-center mb-6">
+              <span class="text-3xl font-bold text-[#e82127]">S</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Model S</h3>
+            <p class="text-gray-600">卓越性能的豪華轎車</p>
+            <div class="mt-4 space-y-2">
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center shrink-0">
+                  <span class="font-medium">台灣</span>
+                </div>
+                <span class="text-gray-600">NT$8,000 折扣</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center shrink-0">
+                  <span class="font-medium">港澳</span>
+                </div>
+                <span class="text-gray-600">MOP$1,958 折扣</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cybertruck -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="500">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-lg flex items-center justify-center mb-6">
+              <span class="text-2xl font-bold text-[#e82127]">CT</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">Cybertruck</h3>
+            <p class="text-gray-600">革命性電動皮卡</p>
+            <div class="mt-4 space-y-2">
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center shrink-0">
+                  <span class="font-medium">台灣</span>
+                </div>
+                <span class="text-gray-600">即將推出</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <div class="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center shrink-0">
+                  <span class="font-medium">港澳</span>
+                </div>
+                <span class="text-gray-600">即將推出</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Use Section -->
+    <section class="py-20 section-2">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">如何使用Tesla推薦碼</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Step 1 -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="100">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-full flex items-center justify-center mb-6">
+              <span class="text-2xl font-bold text-[#e82127]">1</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">複製推薦碼</h3>
+            <p class="text-gray-600">點擊上方的「複製推薦碼」按鈕以獲取優惠。</p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="200">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-full flex items-center justify-center mb-6">
+              <span class="text-2xl font-bold text-[#e82127]">2</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">訪問Tesla官網</h3>
+            <p class="text-gray-600">前往Tesla官方網站(<a href="https://bit.ly/3FYhV87" class="text-[#e82127] hover:underline" target="_blank">tesla.com</a>)。</p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="300">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-full flex items-center justify-center mb-6">
+              <span class="text-2xl font-bold text-[#e82127]">3</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">訂購車輛</h3>
+            <p class="text-gray-600">選擇您喜歡的車型，點擊「立即訂購」。</p>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="400">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-full flex items-center justify-center mb-6">
+              <span class="text-2xl font-bold text-[#e82127]">4</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">選擇配置</h3>
+            <p class="text-gray-600">選擇車輛顏色、輪圈、內裝等選項。</p>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="500">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-full flex items-center justify-center mb-6">
+              <span class="text-2xl font-bold text-[#e82127]">5</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">確認推薦碼</h3>
+            <p class="text-gray-600">在結帳頁面確認推薦碼是否自動套用。</p>
+          </div>
+
+          <!-- Step 6 -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="600">
+            <div class="w-16 h-16 bg-[#e82127]/10 rounded-full flex items-center justify-center mb-6">
+              <span class="text-2xl font-bold text-[#e82127]">6</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-4">完成訂購</h3>
+            <p class="text-gray-600">填寫所有資料並完成訂購，優惠將自動套用。</p>
+          </div>
+        </div>
+
+        <!-- Additional Info -->
+        <div class="mt-12 bg-gray-50 rounded-2xl p-8" data-aos="fade-up">
+          <h3 class="text-xl font-semibold mb-4">💡 注意事項</h3>
+          <ul class="list-disc list-inside space-y-2 text-gray-600">
+            <li>推薦碼僅適用於新車購買。</li>
+            <li>推薦碼一經使用不可更改。</li>
+            <li>優惠將在交車時套用。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommend Reason Section -->
+    <section class="py-20 section-3">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">為什麼選擇Tesla</h2>
+        
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <!-- Reason 1 -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="100">
+            <div class="flex items-center mb-6">
+              <div class="w-16 h-16 bg-[#e82127]/10 rounded-2xl flex items-center justify-center mr-4">
+                <svg class="w-8 h-8 text-[#e82127]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold">領先技術</h3>
+            </div>
+            <div class="space-y-4 text-gray-600">
+              <p>• 持續的無線軟體更新 (OTA)</p>
+              <p>• 自動輔助駕駛(FSD)功能升級</p>
+              <p>• 業界領先的電池技術</p>
+              <p>• 創新的資訊娛樂系統</p>
+            </div>
+          </div>
+
+          <!-- Reason 2 -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="200">
+            <div class="flex items-center mb-6">
+              <div class="w-16 h-16 bg-[#e82127]/10 rounded-2xl flex items-center justify-center mr-4">
+                <svg class="w-8 h-8 text-[#e82127]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold">便利的充電網絡</h3>
+            </div>
+            <div class="space-y-4 text-gray-600">
+              <p>• 全球超級充電網絡</p>
+              <p>• 超高速充電系統</p>
+              <p>• 即時充電站資訊</p>
+              <p>• 簡便的充電預約和支付</p>
+            </div>
+          </div>
+
+          <!-- Reason 3 -->
+          <div class="card-hover bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up" data-aos-delay="300">
+            <div class="flex items-center mb-6">
+              <div class="w-16 h-16 bg-[#e82127]/10 rounded-2xl flex items-center justify-center mr-4">
+                <svg class="w-8 h-8 text-[#e82127]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 class="text-xl font-semibold">經濟價值</h3>
+            </div>
+            <div class="space-y-4 text-gray-600">
+              <p>• 低維護和保養成本</p>
+              <p>• 高殘值</p>
+              <p>• 多項稅務優惠</p>
+              <p>• 節省燃料費用</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Additional Benefits -->
+        <div class="mt-12 bg-white rounded-2xl p-8 shadow-sm" data-aos="fade-up">
+          <div class="flex items-center mb-6">
+            <div class="w-12 h-12 bg-[#e82127]/10 rounded-xl flex items-center justify-center mr-4">
+              <span class="text-[#e82127] text-2xl">💡</span>
+            </div>
+            <h3 class="text-xl font-semibold">Tesla的特別價值</h3>
+          </div>
+          <div class="grid md:grid-cols-2 gap-6 text-gray-600">
+            <div class="space-y-3">
+              <p class="flex items-center">
+                <svg class="w-5 h-5 text-[#e82127] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                前瞻性設計和尖端技術
+              </p>
+              <p class="flex items-center">
+                <svg class="w-5 h-5 text-[#e82127] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                持續性能提升和價值增長
+              </p>
+            </div>
+            <div class="space-y-3">
+              <p class="flex items-center">
+                <svg class="w-5 h-5 text-[#e82127] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                強大的社群和品牌價值
+              </p>
+              <p class="flex items-center">
+                <svg class="w-5 h-5 text-[#e82127] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+                環保移動的領導者
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Updated Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Tesla推薦碼使用方法",
+      "description": "使用Tesla推薦碼購買新車，即可獲得專屬優惠。包含Model 3和Model Y等車型的折扣。",
+      "totalTime": "PT30M",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "網頁瀏覽器"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "name": "複製推薦碼",
+          "text": "點擊上方的「複製推薦碼」按鈕以獲取優惠。",
+          "position": "1"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "訪問Tesla官網",
+          "text": "前往Tesla官方網站(tesla.com)。",
+          "position": "2"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "訂購車輛",
+          "text": "選擇您喜歡的車型，點擊「立即訂購」。",
+          "position": "3"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "選擇配置",
+          "text": "選擇車輛顏色、輪圈、內裝等選項。",
+          "position": "4"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "確認推薦碼",
+          "text": "在結帳頁面確認推薦碼是否自動套用。",
+          "position": "5"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "完成訂購",
+          "text": "填寫所有資料並完成訂購，優惠將自動套用。",
+          "position": "6"
+        }
+      ]
+    }
+    </script>
+    
+   <!-- recommend reason Section -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "為什麼選擇Tesla的3個理由",
+        "itemListOrder": "http://schema.org/ItemListOrderAscending",
+        "numberOfItems": 3,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "領先的電動車技術和OTA更新",
+            "description": "Tesla不僅僅是電動車，它更像是一個「在路上行駛的智能設備」。車輛購買後，透過無線軟體更新(OTA)，性能、功能、UX等各方面都能持續改進。例如：自動輔助駕駛(FSD)功能升級、輔助駕駛系統強化等"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "超級充電網絡和實用性",
+            "description": "Tesla的專屬超高速充電網絡(Supercharger)比其他品牌快得多，只需一個專用應用程序即可確認充電站位置、路線導航、即時狀態，即使在長途旅行中也能輕鬆移動，無需擔心充電。"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "低維護成本和高殘值",
+            "description": "與內燃機車相比，燃料費和維護成本都最小化。消耗品少，OTA更新帶來的維護頻率也低，中古車價值也保持很高，在二手車市場上損失較少。"
+          }
+        ]
+      }
+      </script>
+      
+
+    <!-- FAQ Section -->
+    <section class="py-20 section-4">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">常見問題</h2>
+        
+        <div class="space-y-4" data-aos="fade-up" data-aos-delay="100">
+          <details class="group bg-white rounded-xl shadow-sm overflow-hidden">
+            <summary class="flex items-center justify-between p-6 cursor-pointer">
+              <h3 class="text-lg font-semibold text-gray-900">特斯拉的規範代碼是什麼？</h3>
+              <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <div class="px-6 pb-6">
+              <p class="text-gray-600">特斯拉參考代碼是現有特斯拉車主提供的推薦代碼。 這是使用代碼購買車輛的話,所有人都會得到優惠的推薦人項目。</p>
+            </div>
+          </details>
+
+          <div class="space-y-4" data-aos="fade-up" data-aos-delay="100">
+            <details class="group bg-white rounded-xl shadow-sm overflow-hidden">
+              <summary class="flex items-center justify-between p-6 cursor-pointer">
+                <h3 class="text-lg font-semibold text-gray-900">特斯拉參考代碼需要另外輸入嗎？</h3>
+                <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div class="px-6 pb-6">
+                <p class="text-gray-600">不是的，特斯拉推薦人代碼點擊鏈接即可自動應用，無需另行輸入。</p>
+              </div>
+            </details>
+
+              <div class="space-y-4" data-aos="fade-up" data-aos-delay="100">
+                <details class="group bg-white rounded-xl shadow-sm overflow-hidden">
+                  <summary class="flex items-center justify-between p-6 cursor-pointer">
+                    <h3 class="text-lg font-semibold text-gray-900">在中國內地有可用的代碼嗎？</h3>
+                    <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </summary>
+                  <div class="px-6 pb-6">
+                    <p class="text-gray-600">沒有，面向中國大陸的特斯拉參考碼促銷活動已於2024年4月30日結束。 恢復促銷活動後，我們會盡快通知您。</p>
+                  </div>
+                </details>
+
+          <details class="group bg-white rounded-xl shadow-sm overflow-hidden">
+            <summary class="flex items-center justify-between p-6 cursor-pointer">
+              <h3 class="text-lg font-semibold text-gray-900">特斯拉推薦的代碼任何人都可以使用嗎？</h3>
+              <svg class="w-5 h-5 text-gray-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </summary>
+            <div class="px-6 pb-6">
+              <p class="text-gray-600">是的，這是特斯拉的官方促銷活動，任何人都可以使用。</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#1E2338] text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p class="text-gray-400">© 2025 TRCNOW. 版權所有。</p>
+        <div class="mt-4 space-x-4">
+          <a href="/zh-tw/privacy" class="text-gray-400 hover:text-white">隱私政策</a>
+          <a href="/zh-tw/terms" class="text-gray-400 hover:text-white">使用條款</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+
+    function share() {
+      const shareButton = document.querySelector('button[onclick="share()"]');
+      const originalHTML = shareButton.innerHTML;
+      const originalBg = shareButton.className;
+      
+      // 클립보드에 복사
+      navigator.clipboard.writeText(window.location.href).then(() => {
+        // 버튼 상태 변경
+        shareButton.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          已複製
+        `;
+        shareButton.className = 'bg-green-500 hover:bg-green-600 text-white font-medium px-6 py-2 rounded-full transition-colors inline-flex items-center gap-2';
+        
+        // 3초 후 원래 상태로 복구
+        setTimeout(() => {
+          shareButton.innerHTML = originalHTML;
+          shareButton.className = originalBg;
+        }, 3000);
+      });
+    }
+
+    function copyCode() {
+      const code = "tesla.com/referral/withjade752009";
+      navigator.clipboard.writeText(code).then(() => {
+        // 複製成功時按鈕圖標變更
+        const button = document.querySelector('button[onclick="copyCode()"]');
+        const originalHTML = button.innerHTML;
+        button.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+        `;
+        
+        // 3秒後恢復原圖標
+        setTimeout(() => {
+          button.innerHTML = originalHTML;
+        }, 3000);
+        
+        // 新窗口中打開Tesla網站
+        window.open('https://bit.ly/3FYhV87', '_blank');
+      });
+    }
+
+    // Mobile menu functionality
+    const mobileMenuButton = document.querySelector('.mobile-menu');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.remove('hidden');
+    });
+
+    function closeMobileMenu() {
+      mobileMenu.classList.add('hidden');
+    }
+
+    // Close mobile menu when clicking outside
+    mobileMenu.addEventListener('click', (e) => {
+      if (e.target === mobileMenu) {
+        closeMobileMenu();
+      }
+    });
+  </script>
+</body>
+</html>

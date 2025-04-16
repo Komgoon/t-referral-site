@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Sitemap: https://your-domain.com/sitemap.xml
+
+# Naver
+User-agent: Yeti
+Allow: /
+Disallow: /private/
+
+# Baidu
+User-agent: Baiduspider
+Allow: /
+Disallow: /private/
+
+# Yahoo Japan
+User-agent: Y!J-BOT
+Allow: /
+Disallow: /private/
