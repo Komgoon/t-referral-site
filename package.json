@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Tesla Referral Code Website",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./css/tailwind.css",
-    "dev": "npm run build"
+    "build": "echo 'no build needed'"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.17",
