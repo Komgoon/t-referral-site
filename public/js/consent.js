@@ -41,7 +41,7 @@ async function checkLocationAndShowBanner() {
 // 쿠키 동의 상태를 저장하는 함수
 function setConsentCookie(consent) {
   const d = new Date();
-  d.setTime(d.getTime() + (365*24*60*60*1000)); // 1년 유효
+  d.setTime(d.getTime() + (365*24*60*60*1000));
   document.cookie = `cookie_consent=${consent};expires=${d.toUTCString()};path=/`;
 }
 
@@ -77,7 +77,7 @@ function initializeGA(consent) {
   }
 }
 
-// 동의 배너 표시 함수 (EU 언어로 표시)
+// 동의 배너 표시 함수
 function showConsentBanner() {
   const banner = document.createElement('div');
   banner.innerHTML = `
