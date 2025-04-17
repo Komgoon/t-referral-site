@@ -62,17 +62,25 @@ function getConsentCookie() {
   return null;
 }
 
-// Google Analytics 초기화 함수
+// Google Analytics 초기화 함수 개선
 function initializeGA(consent) {
   if (consent === 'granted') {
     gtag('consent', 'update', {
       'analytics_storage': 'granted',
-      'ad_storage': 'granted'
+      'ad_storage': 'granted',
+      'wait_for_update': 500
+    });
+    // 동의 후 페이지뷰 다시 전송
+    gtag('event', 'page_view', {
+      'page_location': window.location.href,
+      'page_title': document.title,
+      'language': document.documentElement.lang
     });
   } else {
     gtag('consent', 'update', {
       'analytics_storage': 'denied',
-      'ad_storage': 'denied'
+      'ad_storage': 'denied',
+      'wait_for_update': 500
     });
   }
 }

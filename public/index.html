@@ -40,10 +40,17 @@
     // 기본적으로 동의 필요 설정
     gtag('consent', 'default', {
       'analytics_storage': 'denied',
-      'ad_storage': 'denied'
+      'ad_storage': 'denied',
+      'wait_for_update': 500
     });
     
-    gtag('config', 'G-HC6FNEWYXD');
+    // GA4 구성 개선
+    gtag('config', 'G-HC6FNEWYXD', {
+      'send_page_view': true,
+      'page_location': window.location.href,
+      'page_title': document.title,
+      'language': document.documentElement.lang
+    });
   </script>
   <script src="/js/consent.js"></script>
   
