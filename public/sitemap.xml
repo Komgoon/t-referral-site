@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    <!-- 한국어 페이지 -->
+    <!-- 한국어 메인 페이지 -->
     <url>
         <loc>https://trcnow.com/</loc>
-        <lastmod>2024-03-20</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/"/>
@@ -15,77 +15,397 @@
         <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/"/>
         <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/"/>
     </url>
 
-    <!-- 영어 페이지 -->
+    <!-- 영어 메인 페이지 -->
     <url>
         <loc>https://trcnow.com/en/</loc>
-        <lastmod>2024-03-20</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/"/>
     </url>
 
-    <!-- 일본어 페이지 -->
+    <!-- 일본어 메인 페이지 -->
     <url>
         <loc>https://trcnow.com/ja/</loc>
-        <lastmod>2024-03-20</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/"/>
     </url>
 
-    <!-- 태국어 페이지 -->
+    <!-- 태국어 메인 페이지 -->
     <url>
         <loc>https://trcnow.com/th/</loc>
-        <lastmod>2024-03-20</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/"/>
     </url>
 
-    <!-- 독일어 페이지 -->
+    <!-- 독일어 메인 페이지 -->
     <url>
         <loc>https://trcnow.com/de/</loc>
-        <lastmod>2024-03-20</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/"/>
     </url>
 
-    <!-- 노르웨이어 페이지 -->
+    <!-- 노르웨이어 메인 페이지 -->
     <url>
         <loc>https://trcnow.com/no/</loc>
-        <lastmod>2024-03-20</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/"/>
     </url>
 
-    <!-- 프랑스어 페이지 -->
+    <!-- 프랑스어 메인 페이지 -->
     <url>
         <loc>https://trcnow.com/fr/</loc>
-        <lastmod>2024-03-20</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/"/>
     </url>
 
-    <!-- 중국어 페이지 -->
+    <!-- 중국어(번체) 메인 페이지 -->
     <url>
         <loc>https://trcnow.com/zh-tw/</loc>
-        <lastmod>2024-03-20</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/"/>
     </url>
 
-    <!-- 이용약관 페이지 -->
+    <!-- 한국어 이용약관 -->
     <url>
         <loc>https://trcnow.com/terms/</loc>
-        <lastmod>2024-03-20</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/terms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/terms/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/terms/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/terms/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/terms/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/terms/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/terms/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/terms/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/terms/"/>
     </url>
 
-    <!-- 개인정보처리방침 페이지 -->
+    <!-- 영어 이용약관 -->
+    <url>
+        <loc>https://trcnow.com/en/terms/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/terms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/terms/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/terms/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/terms/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/terms/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/terms/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/terms/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/terms/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/terms/"/>
+    </url>
+
+    <!-- 일본어 이용약관 -->
+    <url>
+        <loc>https://trcnow.com/ja/terms/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/terms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/terms/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/terms/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/terms/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/terms/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/terms/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/terms/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/terms/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/terms/"/>
+    </url>
+
+    <!-- 태국어 이용약관 -->
+    <url>
+        <loc>https://trcnow.com/th/terms/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/terms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/terms/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/terms/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/terms/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/terms/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/terms/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/terms/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/terms/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/terms/"/>
+    </url>
+
+    <!-- 독일어 이용약관 -->
+    <url>
+        <loc>https://trcnow.com/de/terms/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/terms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/terms/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/terms/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/terms/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/terms/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/terms/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/terms/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/terms/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/terms/"/>
+    </url>
+
+    <!-- 노르웨이어 이용약관 -->
+    <url>
+        <loc>https://trcnow.com/no/terms/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/terms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/terms/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/terms/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/terms/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/terms/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/terms/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/terms/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/terms/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/terms/"/>
+    </url>
+
+    <!-- 프랑스어 이용약관 -->
+    <url>
+        <loc>https://trcnow.com/fr/terms/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/terms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/terms/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/terms/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/terms/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/terms/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/terms/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/terms/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/terms/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/terms/"/>
+    </url>
+
+    <!-- 중국어(번체) 이용약관 -->
+    <url>
+        <loc>https://trcnow.com/zh-tw/terms/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/terms/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/terms/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/terms/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/terms/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/terms/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/terms/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/terms/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/terms/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/terms/"/>
+    </url>
+
+    <!-- 한국어 개인정보처리방침 -->
     <url>
         <loc>https://trcnow.com/privacy/</loc>
-        <lastmod>2024-03-20</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/privacy/"/>
+    </url>
+
+    <!-- 영어 개인정보처리방침 -->
+    <url>
+        <loc>https://trcnow.com/en/privacy/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/privacy/"/>
+    </url>
+
+    <!-- 일본어 개인정보처리방침 -->
+    <url>
+        <loc>https://trcnow.com/ja/privacy/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/privacy/"/>
+    </url>
+
+    <!-- 태국어 개인정보처리방침 -->
+    <url>
+        <loc>https://trcnow.com/th/privacy/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/privacy/"/>
+    </url>
+
+    <!-- 독일어 개인정보처리방침 -->
+    <url>
+        <loc>https://trcnow.com/de/privacy/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/privacy/"/>
+    </url>
+
+    <!-- 노르웨이어 개인정보처리방침 -->
+    <url>
+        <loc>https://trcnow.com/no/privacy/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/privacy/"/>
+    </url>
+
+    <!-- 프랑스어 개인정보처리방침 -->
+    <url>
+        <loc>https://trcnow.com/fr/privacy/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/privacy/"/>
+    </url>
+
+    <!-- 중국어(번체) 개인정보처리방침 -->
+    <url>
+        <loc>https://trcnow.com/zh-tw/privacy/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://trcnow.com/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://trcnow.com/en/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://trcnow.com/ja/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://trcnow.com/th/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://trcnow.com/de/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="no" href="https://trcnow.com/no/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://trcnow.com/fr/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="zh-TW" href="https://trcnow.com/zh-tw/privacy/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://trcnow.com/privacy/"/>
     </url>
 </urlset>
